@@ -1,0 +1,95 @@
+*{
+    color: #2A2E30;
+    font-family: 'Inter', sans-serif;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    color: var(--accent-blue, #2A62B7);
+
+    /* Overline - SemiBold */
+    font-family: Inter;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 0.875rem;
+}
+h3{
+    font-size: 25px;
+    margin: 2PX;
+
+}
+h4{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+}
+p{  
+    color: var(--neutral-600, #545B63);
+    text-align: justify;
+
+    /* Text - Regular */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+#head{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#body{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-evenly; */
+    padding: 2em;
+    /* align-items: center; */
+
+}
+
+#experience , #profile {
+    padding: 3em;
+    text-align: justify;
+}
+
+#experience{
+    width: 70%;
+}
+
+#profile{
+    width: 30%;
+}
+.det{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px white; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: bisque; 
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #b30000; 
+  }
