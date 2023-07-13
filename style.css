@@ -1,26 +1,32 @@
 *{
     color: #2A2E30;
+    /* color: white; */
     font-family: 'Inter', sans-serif;
 }
 h1{
-    font-size: 40px;
+    font-size: 30px;
+    padding: 5px;
+    margin: 0;
 }
 h2{
+    margin: 0;
     color: var(--accent-blue, #2A62B7);
-
+    padding: 5px;
     /* Overline - SemiBold */
     font-family: Inter;
-    font-size: 30px;
+    font-size: 20px;
     font-style: normal;
     font-weight: 600;
     line-height: 0.875rem;
 }
 h3{
-    font-size: 25px;
-    margin: 2PX;
+    font-size: 15px;
+    /* padding: 5px; */
+    margin: 0;
 
 }
 h4{
+    padding: 5px;
     font-family: Inter;
     font-style: normal;
     font-weight: 400;
@@ -28,9 +34,11 @@ h4{
     margin: 0;
 }
 p{  
+    padding: 5px;
     color: var(--neutral-600, #545B63);
+    /* color: var(--neutral-600, white ); */
     text-align: justify;
-
+    margin: 0;
     /* Text - Regular */
     font-family: Inter;
     font-style: normal;
@@ -38,17 +46,49 @@ p{
     font-size: 15px;
 }
 
-#head{
-    justify-content: center;
+body{
+    /* background-color:black; */
+    background-color: white;
+}
+
+#main{
+    padding: 1em;
+}
+
+#contact{
+    display: flex;
+    flex-direction: row;
     align-items: center;
-    text-align: center;
+}
+
+#contact img p a{
+    width: 20px;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+#head{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+#profileimg{
+    width: 140px;
+    height: auto;
+    border-radius: 50%;
+    border-color: black;
+    border: 2px bold;
 }
 
 #body{
     display: flex;
     flex-direction: row;
     /* justify-content: space-evenly; */
-    padding: 2em;
+    padding: 1em;
     /* align-items: center; */
 
 }
@@ -85,7 +125,7 @@ p{
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: bisque; 
+    background: gray; 
     border-radius: 2px;
   }
   
